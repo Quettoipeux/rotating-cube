@@ -23,9 +23,9 @@ function draw () {
   stroke(255);
   fill(value);
  
-  rotateX(frameCount * 0.002);
-  rotateY(frameCount * 0.004);
-  rotateZ(frameCount * 0.004);
+  rotateX(millis() / 5000);
+  rotateY(millis() / 5700);
+  rotateZ(millis() / 5500);
   
   box(150);
 } 
